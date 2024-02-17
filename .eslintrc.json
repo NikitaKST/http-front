@@ -7,9 +7,11 @@
         "node": true
     },
     "parserOptions": {
-        "ecmaVersion": 6
+        "ecmaVersion": 2021,
+        "sourceType": "module"
     },
     "rules": {
+        "class-methods-use-this": "off",
         "linebreak-style": ["error", "unix"],
         "no-restricted-syntax": [
             "error",
